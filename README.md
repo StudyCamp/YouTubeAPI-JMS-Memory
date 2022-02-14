@@ -28,7 +28,7 @@ This project is PoC to demonstrate an asynchronous communication design with the
 - Help testing, debugging, and experimenting with different components
 - Can be used for automation and trigger for other events
 - Allow future components to use different languages/framework for various expertise
-- \*For demonstration purposes the fetch api is limited to 50 and 5 per page, uses in-memory queue as the broker instead of ActiveMQ
+- \* For demonstration purposes the fetch api is limited to 50 and 5 per page, uses in-memory queue as the broker instead of ActiveMQ
 
 #### Technologies / Dependencies
 
@@ -55,7 +55,7 @@ This project is PoC to demonstrate an asynchronous communication design with the
 
 #### Looking Back
 
-- I would consider experimenting with ActiveMQ as the broker
-- Add a frontend
+- I would consider experimenting with ActiveMQ as the broker and allow multiple project to run separately
+- Extract more meta data and present them creatively on the frontend
 
 ### Developer: Leon Li

@@ -60,9 +60,6 @@ public class YoutubeAPI {
 			String videoUrl = "<url>" + i.getId().getVideoId() + "</url>";
 			String message = "<message>" + title + videoUrl + "</message>";
 
-//			String xml = org.json.XML.toString(i);
-
-			// XML operation
 			queueA.add(message);
 		}
 
@@ -73,43 +70,6 @@ public class YoutubeAPI {
 
 			jmsTemplate.convertAndSend("inmemory1", itemXML);
 		}
-
-//		System.out.println(res.getClass());
-//		for(Result item: resList) {
-//			System.out.println("Found video addresses :" + item.getItems());
-//			 items.additem.getItems();
-//		}
-//		for(Item video: items) {
-//			System.out.println("Found video :" + video.getEtag());
-//		};
-
-//		String kindz = res.getTitle();
-//		System.out.println(kindz);
-
-//		LinkedHashMap<Integer, String> li_hash_map
-//        = new LinkedHashMap<Integer, String>();
-//		System.out.println(rest.getForObject(url, Object.class, params).getClass());
-//		Gson gson = new Gson();		
-
-		// JSONObject jsonObject = new JSONObject(rest.getForObject(url, Object.class,
-		// params));
-//		String xml = XML.toString(json);
-//		System.out.println("Candy["+xml+"]");
-
-//		System.out.println(jsonObject.getJSONArray("items"));
-
-//		JSONArray array = jsonObject.getJSONArray("items" );
-//        for(int i=0;i<array.length();i++){
-//            JSONObject snippet =array.getJSONObject(i);   
-//            System.out.println(snippet.getJSONObject("snippet").get("title"));
-//        }
-//        
-//		System.out.println(rest.getForObject(url, Object.class, params).getClass());
-//		System.out.println(rest.getForObject(url, Object.class, params).getClass());
-
-//	    jmsTemplate.convertAndSend("inmemory1", xmlMeta);
-
-//	    return xmlMeta +" Published Successfully";
 
 	}
 

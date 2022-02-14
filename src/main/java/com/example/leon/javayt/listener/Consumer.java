@@ -31,14 +31,7 @@ public class Consumer {
         }
         
         queueB.add(data);
-//    	Queue<Item> queue = new LinkedList<>();
-//    	Gson gson = new Gson();
-//    	String jsonInString = itemXML;
-//    	Item item = gson.fromJson(jsonInString, Item.class);
-//    	
 
-    
-    	
-    	//STORE
+ 
         System.out.println("Received Message: " + data);
     }}
