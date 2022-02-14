@@ -52,6 +52,7 @@ This project is PoC to demonstrate an asynchronous communication design with the
 - After the application started, it is configured to http://localhost:8081
 - In Postman or browser URL enter: http://localhost:8081/api?part=snippet&q=%22telecom%22&key=AIzaSyCtwmCm3gxZgqjXdgjhshAiuaMNHalLiZE
 - Results can be seen in the console log / cmd
+- ![Screenshot](youtubeApiJMS-result.jpg)
 
 #### Looking Back
 
