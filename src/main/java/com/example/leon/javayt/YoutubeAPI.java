@@ -38,8 +38,6 @@ public class YoutubeAPI {
 
 	@RequestMapping(value = "/api", headers = "Accept=application/json")
 	public void youtube(@RequestParam String part, @RequestParam String q, @RequestParam String key) {
-		
-		// Enter this URL: http://localhost:8081/api?part=snippet&q=%22telecom%22&key=AIzaSyCtwmCm3gxZgqjXdgjhshAiuaMNHalLiZE
 		String url = "https://youtube.googleapis.com/youtube/v3/search?part={part}&q={q}&key={key}";
 
 		HashMap<String, String> params = new HashMap<>();
